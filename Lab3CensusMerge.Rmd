@@ -1,0 +1,40 @@
+---
+title: "Lab3"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse) #Standard data analysis package
+library(sf) #Allows for the opening and analysis of spatial files 
+library(leaflet) #Important for building interactive tmap tools
+library(tmap) #Allows for building interactive HTML tools 
+#library(maptools) #Allows for more advanced map manipulating and other geospatial tools
+library(sp) #Allows for manipulating spatial datasets as type Spatial, which is necissary for some wrangling not shown here
+library(raster) #Reads in raster data and has some analysis tools
+#library(beepr) #Useful for long loading times
+library(RColorBrewer)
+```
+
+```{r}
+SB_tracts <- st_read(dsn = ".", layer = "tl_2010_06083_tract00") %>% 
+   st_transform(crs = 4326)%>% 
+  mutate(CTIDFP00 = as.numeric(CTIDFP00)) %>% 
+  mutate(Id2 = )
+  
+census_data = read_csv("DEC_10_SF1_P1_with_ann.csv") %>% 
+  mutate(CTIDFP00 = Id2)
+
+```
+```{r}
+plot(SB_tracts)
+```
+```{r}
+census_map = full_join(SB_tracts, census_data, by = "CTIDFP00")# %>% 
+  #filter(!is.na(Total))
+
+```
+
