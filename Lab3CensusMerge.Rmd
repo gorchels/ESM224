@@ -44,12 +44,12 @@ plot(SB_tracts)
 census_map_2010 = full_join(SB_tracts, census_data_2010,census_data_2000, by = "Id2")
 
 census_pop_change = full_join(census_map_2010, census_data_2000, by = "Id2") %>% 
-  filter(!is.na(Total2000)) %>% 
-  filter(!is.na(Total2010)) %>% 
+  #filter(!is.na(Total2000)) %>% 
+  #filter(!is.na(Total2010)) %>% 
   dplyr::select(Total2000,Total2010) %>% 
   mutate(difference=Total2010-Total2000)
 
-#plot(census_map)
+plot(census_map)
 ```
 
 
