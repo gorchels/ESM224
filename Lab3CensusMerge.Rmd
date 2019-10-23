@@ -62,3 +62,7 @@ ggplot(census_pop_change)+
   coord_sf(datum=NA)
 ```
 
+```{r}
+st_write(census_pop_change, "populationchange.shp", driver="ESRI Shapefile") 
+```
+
