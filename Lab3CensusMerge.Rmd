@@ -63,6 +63,21 @@ ggplot(census_pop_change)+
 ```
 
 ```{r}
-st_write(census_pop_change, "populationchange.shp", driver="ESRI Shapefile") 
+#st_write(census_pop_change, "populationchange.shp", driver="ESRI Shapefile") 
+```
+```{r}
+
+x <- data.frame("population" = c(sum(census_data_2000$Total), sum(census_data_2010$Total), 369608,298694), "Year" = c(2000,2010,1990,1980))
+```
+
+
+```{r}
+ggplot(x, aes(x = Year, y = population))+
+  geom_col(aes(col=I("black")))+
+  theme_classic()+
+  ylab("Total Poplulation")+
+  xlab("Year of Census Collection")+
+  scale_y_continuous(expand = c(0,0))
+
 ```
 
