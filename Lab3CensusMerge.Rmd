@@ -17,6 +17,8 @@ library(sp) #Allows for manipulating spatial datasets as type Spatial, which is 
 library(raster) #Reads in raster data and has some analysis tools
 #library(beepr) #Useful for long loading times
 library(RColorBrewer)
+library(scales)
+
 ```
 
 ```{r}
@@ -73,11 +75,11 @@ x <- data.frame("population" = c(sum(census_data_2000$Total), sum(census_data_20
 
 ```{r}
 ggplot(x, aes(x = Year, y = population))+
-  geom_col(aes(col=I("black")))+
+  geom_col(aes(col=I("black")), fill = "cornflowerblue")+
   theme_classic()+
   ylab("Total Poplulation")+
   xlab("Year of Census Collection")+
-  scale_y_continuous(expand = c(0,0))
+  scale_y_continuous(expand = c(0,0), labels=comma)
 
 ```
 
