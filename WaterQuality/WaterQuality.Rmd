@@ -1,0 +1,51 @@
+---
+title: "WaterQuality"
+author: "Madeline Gorchels"
+date: "10/30/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library(tidyverse)
+library(janitor)
+```
+
+```{r}
+monitoring = read_csv("narrowresult.csv") %>% 
+  clean_names() %>% 
+  select(activity_start_date, monitoring_location_identifier, characteristic_name, result_measure_value, result_measure_measure_unit_code) %>% 
+  mutate(Date=activity_start_date) %>% 
+  mutate(ID = monitoring_location_identifier) %>% 
+  mutate(Parameter = characteristic_name) %>% 
+  mutate(Value = result_measure_value) %>% 
+  mutate(Unit = result_measure_measure_unit_code) %>% 
+  select(Date, ID, Parameter, Value, Unit) %>% 
+  filter(!is.na(Value))
+
+siteinfo = read_csv("siteinfo.csv") %>% 
+  clean_names()
+```
+```{r}
+filtered_monitoring = monitoring %>% 
+  filter(Parameter == "Nitrate"|Parameter=="Mercury"|Parameter=="Total dissolved solids"|Parameter=="Soduim"|Parameter== "Ammonia")
+            #Count = count(Parameter))
+
+site_filter = siteinfo %>% 
+  mutate(ID=monitoring_location_identifier) %>% 
+  mutate(Location=monitoring_location_name) %>% 
+  mutate(WaterBody=monitoring_location_name) %>% 
+  mutate(Latitude=latitude_measure) %>% 
+  mutate(Longitude=longitude_measure) %>% 
+  select(ID, Location, WaterBody, Latitude, Longitude)
+```
+
+```{r}
+write.csv(filtered_monitoring, file="Filtered_MonitoringData.csv")
+write.csv(site_filter, file="SiteInfoFiltered.csv")
+```
+
