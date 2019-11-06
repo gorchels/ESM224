@@ -13,6 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 library(tidyverse)
 library(janitor)
+library(stringr)
 ```
 
 ```{r}
@@ -23,13 +24,14 @@ monitoring = read_csv("narrowresult.csv") %>%
   mutate(ID = monitoring_location_identifier) %>% 
   mutate(Parameter = characteristic_name) %>% 
   mutate(Value = result_measure_value) %>% 
-  mutate(Unit = result_measure_measure_unit_code) %>% 
+  mutate(Unit = result_measure_measure_unit_code) #%>% 
   select(Date, ID, Parameter, Value, Unit) %>% 
   filter(!is.na(Value))
 
 siteinfo = read_csv("siteinfo.csv") %>% 
   clean_names()
 ```
+
 ```{r}
 filtered_monitoring = monitoring %>% 
   filter(Parameter == "Nitrate"|Parameter=="Mercury"|Parameter=="Total dissolved solids"|Parameter=="Soduim"|Parameter== "Ammonia")
@@ -42,10 +44,21 @@ site_filter = siteinfo %>%
   mutate(Latitude=latitude_measure) %>% 
   mutate(Longitude=longitude_measure) %>% 
   select(ID, Location, WaterBody, Latitude, Longitude)
+
+site_sum = read_csv("SiteInfoFiltered.csv") %>% 
+  rename(Organization=X7)
+
+site_cont_sum=full_join(site_sum,filtered_monitoring, by = "ID") %>% 
+  group_by(Organization,ID,Parameter)%>% 
+  summarise(min=min(Date),
+            max=max(Date)) %>% 
+  filter(!is.na(Parameter))
+
+write.csv(site_cont_sum, file="SiteFull.csv")
 ```
 
 ```{r}
-write.csv(filtered_monitoring, file="Filtered_MonitoringData.csv")
-write.csv(site_filter, file="SiteInfoFiltered.csv")
+#write.csv(filtered_monitoring, file="Filtered_MonitoringData.csv")
+#write.csv(site_filter, file="SiteInfoFiltered.csv")
 ```
 

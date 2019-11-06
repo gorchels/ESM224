@@ -1,0 +1,69 @@
+"","Organization","ID","Parameter","min","max"
+"1","California Department Of Water Resources","CALWR_WQX-D8144000","Total dissolved solids",2001-05-16,2001-11-15
+"2","California Department Of Water Resources","CALWR_WQX-D8156500","Total dissolved solids",2001-05-16,2002-05-07
+"3","California State Water Resources Control Board","CEDEN-314CACHLK","Ammonia",2017-05-18,2017-05-18
+"4","California State Water Resources Control Board","CEDEN-314CACHLK","Nitrate",2017-05-18,2017-05-18
+"5","California State Water Resources Control Board","CEDEN-314DDE","Ammonia",2008-01-24,2008-12-16
+"6","California State Water Resources Control Board","CEDEN-314DDE","Total dissolved solids",2008-01-24,2008-12-16
+"7","California State Water Resources Control Board","CEDEN-314MCM","Ammonia",2008-01-24,2008-12-16
+"8","California State Water Resources Control Board","CEDEN-314MCM","Total dissolved solids",2008-01-24,2008-12-16
+"9","California State Water Resources Control Board","CEDEN-314MIG","Ammonia",2001-01-18,2014-12-17
+"10","California State Water Resources Control Board","CEDEN-314MIG","Nitrate",2001-01-18,2014-12-17
+"11","California State Water Resources Control Board","CEDEN-314MIG","Total dissolved solids",2001-01-18,2014-12-17
+"12","California State Water Resources Control Board","CEDEN-314SAL","Ammonia",2001-01-18,2014-12-17
+"13","California State Water Resources Control Board","CEDEN-314SAL","Nitrate",2001-01-18,2014-12-17
+"14","California State Water Resources Control Board","CEDEN-314SAL","Total dissolved solids",2001-01-18,2014-12-17
+"15","California State Water Resources Control Board","CEDEN-314SYC","Ammonia",2001-02-12,2014-12-17
+"16","California State Water Resources Control Board","CEDEN-314SYC","Nitrate",2001-01-18,2014-12-17
+"17","California State Water Resources Control Board","CEDEN-314SYC","Total dissolved solids",2001-01-18,2014-12-17
+"18","California State Water Resources Control Board","CEDEN-314SYF","Ammonia",2001-01-18,2019-04-29
+"19","California State Water Resources Control Board","CEDEN-314SYF","Nitrate",2001-01-18,2014-12-17
+"20","California State Water Resources Control Board","CEDEN-314SYF","Total dissolved solids",2001-01-18,2014-12-17
+"21","California State Water Resources Control Board","CEDEN-314SYI","Ammonia",2001-01-18,2014-12-17
+"22","California State Water Resources Control Board","CEDEN-314SYI","Nitrate",2001-01-18,2014-12-17
+"23","California State Water Resources Control Board","CEDEN-314SYI","Total dissolved solids",2001-01-18,2014-12-17
+"24","California State Water Resources Control Board","CEDEN-314SYL","Ammonia",2001-02-12,2019-05-22
+"25","California State Water Resources Control Board","CEDEN-314SYL","Nitrate",2001-01-18,2008-06-16
+"26","California State Water Resources Control Board","CEDEN-314SYL","Total dissolved solids",2001-01-18,2011-12-14
+"27","California State Water Resources Control Board","CEDEN-314SYN","Ammonia",2001-01-18,2019-06-26
+"28","California State Water Resources Control Board","CEDEN-314SYN","Mercury",2016-03-16,2016-03-16
+"29","California State Water Resources Control Board","CEDEN-314SYN","Nitrate",2001-01-18,2018-07-03
+"30","California State Water Resources Control Board","CEDEN-314SYN","Total dissolved solids",2001-01-18,2018-07-03
+"31","California State Water Resources Control Board","CEDEN-314SYP","Ammonia",2001-02-12,2014-12-17
+"32","California State Water Resources Control Board","CEDEN-314SYP","Nitrate",2001-01-18,2014-12-17
+"33","California State Water Resources Control Board","CEDEN-314SYP","Total dissolved solids",2001-01-18,2014-12-17
+"34","California State Water Resources Control Board","CEDEN-314ZCALK1","Ammonia",2017-05-18,2017-05-18
+"35","California State Water Resources Control Board","CEDEN-314ZCALK1","Nitrate",2017-05-18,2017-05-18
+"36","California State Water Resources Control Board","CEDEN-314ZCALK2","Ammonia",2017-05-18,2017-05-18
+"37","California State Water Resources Control Board","CEDEN-314ZCALK2","Nitrate",2017-05-18,2017-05-18
+"38","California State Water Resources Control Board","CEDEN-Buellton_Industrial","Ammonia",2016-01-05,2016-01-05
+"39","California State Water Resources Control Board","CEDEN-Buellton_Industrial","Nitrate",2016-01-05,2016-11-26
+"40","California State Water Resources Control Board","CEDEN-Solvang_Residential","Ammonia",2016-10-28,2018-03-10
+"41","California State Water Resources Control Board","CEDEN-Solvang_Residential","Nitrate",2016-03-05,2016-10-28
+"42","Environmental Protection Agency","NARS_WQX-WCAP99-0677","Nitrate",2002-05-09,2002-05-09
+"43","Environmental Protection Agency","NARS_WQX-WCAP99-0779","Nitrate",2001-07-11,2001-07-11
+"44","Environmental Protection Agency","NARS_WQX-WCAP99-0785","Nitrate",2001-05-24,2001-05-24
+"45","Environmental Protection Agency","NARS_WQX-WCAP99-0796","Nitrate",2001-07-10,2001-07-10
+"46","Environmental Protection Agency","NARS_WQX-WCAP99-0898","Nitrate",2001-05-23,2001-05-23
+"47","Environmental Protection Agency","NARS_WQX-WCAP99-1046","Nitrate",2002-06-12,2002-06-12
+"48","Environmental Protection Agency","NARS_WQX-WCAP99-1102","Nitrate",2003-05-07,2003-05-07
+"49","Santa Ynez Chumash Environmental Office","SYCEO_WQX-ZDC-3","Mercury",2009-01-26,2014-01-21
+"50","Santa Ynez Chumash Environmental Office","SYCEO_WQX-ZDC-3","Nitrate",2009-01-26,2014-01-21
+"51","Santa Ynez Chumash Environmental Office","SYCEO_WQX-ZDC-3","Total dissolved solids",2009-01-26,2014-01-21
+"52","Santa Ynez Chumash Environmental Office","SYCEO_WQX-ZDC-5","Mercury",2009-02-10,2014-01-21
+"53","Santa Ynez Chumash Environmental Office","SYCEO_WQX-ZDC-5","Nitrate",2009-04-28,2014-01-21
+"54","Santa Ynez Chumash Environmental Office","SYCEO_WQX-ZDC-5","Total dissolved solids",2009-02-10,2014-01-21
+"55","Santa Ynez Chumash Environmental Office","SYCEO_WQX-ZDC-7","Mercury",2009-01-26,2014-01-21
+"56","Santa Ynez Chumash Environmental Office","SYCEO_WQX-ZDC-7","Nitrate",2009-01-26,2014-01-21
+"57","Santa Ynez Chumash Environmental Office","SYCEO_WQX-ZDC-7","Total dissolved solids",2009-01-26,2014-01-21
+"58","Santa Ynez Chumash Environmental Office","SYCEO_WQX-ZDC-8","Mercury",2009-02-17,2010-12-20
+"59","Santa Ynez Chumash Environmental Office","SYCEO_WQX-ZDC-8","Nitrate",2010-01-20,2010-12-20
+"60","Santa Ynez Chumash Environmental Office","SYCEO_WQX-ZDC-8","Total dissolved solids",2009-02-17,2010-12-20
+"61","Santa Ynez Chumash Environmental Office","SYCEO-ZDC_3","Mercury",2005-12-29,2008-01-10
+"62","Santa Ynez Chumash Environmental Office","SYCEO-ZDC_3","Total dissolved solids",2005-12-29,2008-01-10
+"63","Santa Ynez Chumash Environmental Office","SYCEO-ZDC_5","Mercury",2005-12-29,2008-01-10
+"64","Santa Ynez Chumash Environmental Office","SYCEO-ZDC_5","Total dissolved solids",2005-12-29,2008-01-10
+"65","Santa Ynez Chumash Environmental Office","SYCEO-ZDC_7","Mercury",2005-12-29,2008-01-10
+"66","Santa Ynez Chumash Environmental Office","SYCEO-ZDC_7","Total dissolved solids",2005-12-29,2008-01-10
+"67","Santa Ynez Chumash Environmental Office","SYCEO-ZDC_8","Mercury",2006-05-02,2006-05-02
+"68","Santa Ynez Chumash Environmental Office","SYCEO-ZDC_8","Total dissolved solids",2006-05-02,2006-05-02

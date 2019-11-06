@@ -1,47 +1,47 @@
-"","ID","Location","WaterBody","Latitude","Longitude"
-"1","CALWR_WQX-D8144000","SANTA YNEZ R A SOLVANG","SANTA YNEZ R A SOLVANG",34.585,-120.1463
-"2","CALWR_WQX-D8156500","CACHUMA RES NR SANTA YNEZ","CACHUMA RES NR SANTA YNEZ",34.588,-119.9765
-"3","CEDEN-314CACHLK","Lake Cachuma at marina doc","Lake Cachuma at marina doc",34.5785,-119.957
-"4","CEDEN-314DDE","Canal Trib to Santa Ynez River @ W Central Ave","Canal Trib to Santa Ynez River @ W Central Ave",34.6615,-120.514
-"5","CEDEN-314MCM","Miguelito Creek mouth @ treatment plant","Miguelito Creek mouth @ treatment plant",34.6633,-120.479
-"6","CEDEN-314MIG","San Miguelito Creek at W. North Avenue","San Miguelito Creek at W. North Avenue",34.6535,-120.474
-"7","CEDEN-314SAL","Salsipuedes Creek @ Santa Rosa Rd","Salsipuedes Creek @ Santa Rosa Rd",34.6218,-120.421
-"8","CEDEN-314SYC","Santa Ynez River d/s Lake Cachuma at Highway 154","Santa Ynez River d/s Lake Cachuma at Highway 154",34.588,-120.027
-"9","CEDEN-314SYF","Santa Ynez River at Floradale Rd","Santa Ynez River at Floradale Rd",34.6721,-120.492
-"10","CEDEN-314SYI","Santa Ynez River at Highway 101","Santa Ynez River at Highway 101",34.6062,-120.193
-"11","CEDEN-314SYL","Santa Ynez River at Highway 246","Santa Ynez River at Highway 246",34.6439,-120.43
-"12","CEDEN-314SYN","Santa Ynez River at 13th Street","Santa Ynez River at 13th Street",34.6766,-120.553
-"13","CEDEN-314SYP","Santa Ynez River at Paradise Road","Santa Ynez River at Paradise Road",34.5462,-119.776
-"14","CEDEN-314ZCALK1","Zaca Lake at Cabin 1 tree swing","Zaca Lake at Cabin 1 tree swing",34.7785,-120.039
-"15","CEDEN-314ZCALK2","Zaca Lake at old burned down lodge","Zaca Lake at old burned down lodge",34.7791,-120.041
-"16","CEDEN-Buellton_Industrial","City of Buellton, Industrial","City of Buellton, Industrial",34.6086,-120.203
-"17","CEDEN-Solvang_Residential","City of Solvang, Residential","City of Solvang, Residential",34.6045,-120.122
-"18","NARS-WCAP99-0677","ALAMO PINTADO","ALAMO PINTADO",34.74,-120.05
-"19","NARS-WCAP99-0779","COCHE CREEK","COCHE CREEK",34.66,-119.75
-"20","NARS-WCAP99-0785","UNNAMED CREEK","UNNAMED CREEK",34.67,-120.51
-"21","NARS-WCAP99-0796","SANTA CRUZ CREEK","SANTA CRUZ CREEK",34.68,-119.79
-"22","NARS-WCAP99-0898","NOJOQUI CREEK","NOJOQUI CREEK",34.59,-120.19
-"23","NARS-WCAP99-1046","KELLY CREEK","KELLY CREEK",34.53,-119.83
-"24","NARS-WCAP99-1102","CACHUMA CREEK","CACHUMA CREEK",34.69,-119.9
-"25","NARS_WQX-WCAP99-0677","ALAMO PINTADO","ALAMO PINTADO",34.7477,-120.05303
-"26","NARS_WQX-WCAP99-0779","COCHE CREEK","COCHE CREEK",34.66959,-119.75404
-"27","NARS_WQX-WCAP99-0785","UNNAMED CREEK","UNNAMED CREEK",34.67473,-120.51417
-"28","NARS_WQX-WCAP99-0796","SANTA CRUZ CREEK","SANTA CRUZ CREEK",34.68351,-119.79875
-"29","NARS_WQX-WCAP99-0898","NOJOQUI CREEK","NOJOQUI CREEK",34.59402,-120.19376
-"30","NARS_WQX-WCAP99-1046","KELLY CREEK","KELLY CREEK",34.5365,-119.83603
-"31","NARS_WQX-WCAP99-1102","CACHUMA CREEK","CACHUMA CREEK",34.69526,-119.90915
-"32","SYCEO-ZDC_3","Zanja_de_Cota_Creek_Mid","Zanja_de_Cota_Creek_Mid",34.6108611,-120.0942778
-"33","SYCEO-ZDC_5","Zanja_de_Cota_Creek_Upstream","Zanja_de_Cota_Creek_Upstream",34.6161389,-120.0895277
-"34","SYCEO-ZDC_7","Zanja_de_Cota_Creek_Downstream","Zanja_de_Cota_Creek_Downstream",34.6001389,-120.1006389
-"35","SYCEO-ZDC_8","Zanja_de_Cota_Creek_Upstream_2","Zanja_de_Cota_Creek_Upstream_2",34.6073297,-120.0888222
-"36","SYCEO_WQX-ZDC-10","Zanja de Cota Creek Headwaters","Zanja de Cota Creek Headwaters",34.61104,-120.08624
-"37","SYCEO_WQX-ZDC-3","Zanja de Cota Creek Mid-point","Zanja de Cota Creek Mid-point",34.6066167,-120.0898667
-"38","SYCEO_WQX-ZDC-3-Dup","Zanja de Cota Creek Mid-point - Duplicate","Zanja de Cota Creek Mid-point - Duplicate",34.6066167,-120.0898667
-"39","SYCEO_WQX-ZDC-5","Zanja de Cota Creek West Fork Upstream","Zanja de Cota Creek West Fork Upstream",34.6096333,-120.0870333
-"40","SYCEO_WQX-ZDC-5-Dup","Zanja de Cota Creek West Fork Upstream - Duplicate","Zanja de Cota Creek West Fork Upstream - Duplicate",34.6096333,-120.0870333
-"41","SYCEO_WQX-ZDC-7","Zanja de Cota Creek Downstream","Zanja de Cota Creek Downstream",34.5934167,-120.0937167
-"42","SYCEO_WQX-ZDC-7-Dup","Zanja de Cota Creek Downstream - Duplicate","Zanja de Cota Creek Downstream - Duplicate",34.5934167,-120.0937167
-"43","SYCEO_WQX-ZDC-8","Zanja de Cota Creek East Fork Upstream","Zanja de Cota Creek East Fork Upstream",34.60745,-120.0887167
-"44","SYCEO_WQX-ZDC-8-Dup","Zanja de Cota Creek East Fork Upstream - Duplicate","Zanja de Cota Creek East Fork Upstream - Duplicate",34.60745,-120.0887167
-"45","SYCEO_WQX-ZDC-9","Zanja de Cota Creek Upstream of Hwy 246 Culvert","Zanja de Cota Creek Upstream of Hwy 246 Culvert",34.61015,-120.08703
-"46","SYCEO_WQX-ZDC-9-Dup","Zanja de Cota Creek Upstream of Hwy 246 Culvert - Duplicate","Zanja de Cota Creek Upstream of Hwy 246 Culvert - Duplicate",34.61015,-120.08701
+,ID,Location,WaterBody,Latitude,Longitude,
+1,CALWR_WQX-D8144000,SANTA YNEZ R A SOLVANG,SANTA YNEZ R A SOLVANG,34.585,-120.1463,California Department Of Water Resources
+2,CALWR_WQX-D8156500,CACHUMA RES NR SANTA YNEZ,CACHUMA RES NR SANTA YNEZ,34.588,-119.9765,California Department Of Water Resources
+3,CEDEN-314CACHLK,Lake Cachuma at marina doc,Lake Cachuma at marina doc,34.5785,-119.957,California State Water Resources Control Board
+4,CEDEN-314DDE,Canal Trib to Santa Ynez River @ W Central Ave,Canal Trib to Santa Ynez River @ W Central Ave,34.6615,-120.514,California State Water Resources Control Board
+5,CEDEN-314MCM,Miguelito Creek mouth @ treatment plant,Miguelito Creek mouth @ treatment plant,34.6633,-120.479,California State Water Resources Control Board
+6,CEDEN-314MIG,San Miguelito Creek at W. North Avenue,San Miguelito Creek at W. North Avenue,34.6535,-120.474,California State Water Resources Control Board
+7,CEDEN-314SAL,Salsipuedes Creek @ Santa Rosa Rd,Salsipuedes Creek @ Santa Rosa Rd,34.6218,-120.421,California State Water Resources Control Board
+8,CEDEN-314SYC,Santa Ynez River d/s Lake Cachuma at Highway 154,Santa Ynez River d/s Lake Cachuma at Highway 154,34.588,-120.027,California State Water Resources Control Board
+9,CEDEN-314SYF,Santa Ynez River at Floradale Rd,Santa Ynez River at Floradale Rd,34.6721,-120.492,California State Water Resources Control Board
+10,CEDEN-314SYI,Santa Ynez River at Highway 101,Santa Ynez River at Highway 101,34.6062,-120.193,California State Water Resources Control Board
+11,CEDEN-314SYL,Santa Ynez River at Highway 246,Santa Ynez River at Highway 246,34.6439,-120.43,California State Water Resources Control Board
+12,CEDEN-314SYN,Santa Ynez River at 13th Street,Santa Ynez River at 13th Street,34.6766,-120.553,California State Water Resources Control Board
+13,CEDEN-314SYP,Santa Ynez River at Paradise Road,Santa Ynez River at Paradise Road,34.5462,-119.776,California State Water Resources Control Board
+14,CEDEN-314ZCALK1,Zaca Lake at Cabin 1 tree swing,Zaca Lake at Cabin 1 tree swing,34.7785,-120.039,California State Water Resources Control Board
+15,CEDEN-314ZCALK2,Zaca Lake at old burned down lodge,Zaca Lake at old burned down lodge,34.7791,-120.041,California State Water Resources Control Board
+16,CEDEN-Buellton_Industrial,"City of Buellton, Industrial","City of Buellton, Industrial",34.6086,-120.203,California State Water Resources Control Board
+17,CEDEN-Solvang_Residential,"City of Solvang, Residential","City of Solvang, Residential",34.6045,-120.122,California State Water Resources Control Board
+18,NARS-WCAP99-0677,ALAMO PINTADO,ALAMO PINTADO,34.74,-120.05,Environmental Protection Agency
+19,NARS-WCAP99-0779,COCHE CREEK,COCHE CREEK,34.66,-119.75,Environmental Protection Agency
+20,NARS-WCAP99-0785,UNNAMED CREEK,UNNAMED CREEK,34.67,-120.51,Environmental Protection Agency
+21,NARS-WCAP99-0796,SANTA CRUZ CREEK,SANTA CRUZ CREEK,34.68,-119.79,Environmental Protection Agency
+22,NARS-WCAP99-0898,NOJOQUI CREEK,NOJOQUI CREEK,34.59,-120.19,Environmental Protection Agency
+23,NARS-WCAP99-1046,KELLY CREEK,KELLY CREEK,34.53,-119.83,Environmental Protection Agency
+24,NARS-WCAP99-1102,CACHUMA CREEK,CACHUMA CREEK,34.69,-119.9,Environmental Protection Agency
+25,NARS_WQX-WCAP99-0677,ALAMO PINTADO,ALAMO PINTADO,34.7477,-120.05303,Environmental Protection Agency
+26,NARS_WQX-WCAP99-0779,COCHE CREEK,COCHE CREEK,34.66959,-119.75404,Environmental Protection Agency
+27,NARS_WQX-WCAP99-0785,UNNAMED CREEK,UNNAMED CREEK,34.67473,-120.51417,Environmental Protection Agency
+28,NARS_WQX-WCAP99-0796,SANTA CRUZ CREEK,SANTA CRUZ CREEK,34.68351,-119.79875,Environmental Protection Agency
+29,NARS_WQX-WCAP99-0898,NOJOQUI CREEK,NOJOQUI CREEK,34.59402,-120.19376,Environmental Protection Agency
+30,NARS_WQX-WCAP99-1046,KELLY CREEK,KELLY CREEK,34.5365,-119.83603,Environmental Protection Agency
+31,NARS_WQX-WCAP99-1102,CACHUMA CREEK,CACHUMA CREEK,34.69526,-119.90915,Environmental Protection Agency
+32,SYCEO-ZDC_3,Zanja_de_Cota_Creek_Mid,Zanja_de_Cota_Creek_Mid,34.6108611,-120.0942778,Santa Ynez Chumash Environmental Office
+33,SYCEO-ZDC_5,Zanja_de_Cota_Creek_Upstream,Zanja_de_Cota_Creek_Upstream,34.6161389,-120.0895277,Santa Ynez Chumash Environmental Office
+34,SYCEO-ZDC_7,Zanja_de_Cota_Creek_Downstream,Zanja_de_Cota_Creek_Downstream,34.6001389,-120.1006389,Santa Ynez Chumash Environmental Office
+35,SYCEO-ZDC_8,Zanja_de_Cota_Creek_Upstream_2,Zanja_de_Cota_Creek_Upstream_2,34.6073297,-120.0888222,Santa Ynez Chumash Environmental Office
+36,SYCEO_WQX-ZDC-10,Zanja de Cota Creek Headwaters,Zanja de Cota Creek Headwaters,34.61104,-120.08624,Santa Ynez Chumash Environmental Office
+37,SYCEO_WQX-ZDC-3,Zanja de Cota Creek Mid-point,Zanja de Cota Creek Mid-point,34.6066167,-120.0898667,Santa Ynez Chumash Environmental Office
+38,SYCEO_WQX-ZDC-3-Dup,Zanja de Cota Creek Mid-point - Duplicate,Zanja de Cota Creek Mid-point - Duplicate,34.6066167,-120.0898667,Santa Ynez Chumash Environmental Office
+39,SYCEO_WQX-ZDC-5,Zanja de Cota Creek West Fork Upstream,Zanja de Cota Creek West Fork Upstream,34.6096333,-120.0870333,Santa Ynez Chumash Environmental Office
+40,SYCEO_WQX-ZDC-5-Dup,Zanja de Cota Creek West Fork Upstream - Duplicate,Zanja de Cota Creek West Fork Upstream - Duplicate,34.6096333,-120.0870333,Santa Ynez Chumash Environmental Office
+41,SYCEO_WQX-ZDC-7,Zanja de Cota Creek Downstream,Zanja de Cota Creek Downstream,34.5934167,-120.0937167,Santa Ynez Chumash Environmental Office
+42,SYCEO_WQX-ZDC-7-Dup,Zanja de Cota Creek Downstream - Duplicate,Zanja de Cota Creek Downstream - Duplicate,34.5934167,-120.0937167,Santa Ynez Chumash Environmental Office
+43,SYCEO_WQX-ZDC-8,Zanja de Cota Creek East Fork Upstream,Zanja de Cota Creek East Fork Upstream,34.60745,-120.0887167,Santa Ynez Chumash Environmental Office
+44,SYCEO_WQX-ZDC-8-Dup,Zanja de Cota Creek East Fork Upstream - Duplicate,Zanja de Cota Creek East Fork Upstream - Duplicate,34.60745,-120.0887167,Santa Ynez Chumash Environmental Office
+45,SYCEO_WQX-ZDC-9,Zanja de Cota Creek Upstream of Hwy 246 Culvert,Zanja de Cota Creek Upstream of Hwy 246 Culvert,34.61015,-120.08703,Santa Ynez Chumash Environmental Office
+46,SYCEO_WQX-ZDC-9-Dup,Zanja de Cota Creek Upstream of Hwy 246 Culvert - Duplicate,Zanja de Cota Creek Upstream of Hwy 246 Culvert - Duplicate,34.61015,-120.08701,Santa Ynez Chumash Environmental Office
