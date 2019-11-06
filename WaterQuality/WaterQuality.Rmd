@@ -82,8 +82,24 @@ stations = read_sf(dsn = "WQstations", layer = "WaterQuality_MonitoringSites") %
 plot(stations)
 
 stations_org= full_join(stations,site_cont_sum, by="ID")
+quality_data=full_join(stations,filtered_monitoring, by="ID")
 
 #write.csv(stations_org, file="stations_org.csv")
 #st_write(stations_org, "stations_org2.shp", driver="ESRI Shapefile") 
+plot(quality_data, max.plot=22)
+plot_sum = quality_data %>% 
+  group_by(ID,Parameter) %>% 
+  summarise(Mean=mean(Value)) %>% 
+  filter(!is.na(Mean))
+```
+
+```{r}
+santaynez = read_sf(dsn = ".", layer = "cat") %>% 
+  st_transform(crs = 4326)
+
+ggplot(plot_sum)+
+  geom_sf(data=santaynez)+
+  geom_sf(data = plot_sum)+
+  theme_minimal()
 ```
 
