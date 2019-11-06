@@ -62,7 +62,7 @@ site_cont_sum=full_join(site_sum,filtered_monitoring, by = "ID") %>%
             max=max(Date)) %>% 
   filter(!is.na(Parameter))
 
-write.csv(site_cont_sum, file="SiteFull.csv")
+#write.csv(site_cont_sum, file="SiteFull.csv")
 ```
 
 ```{r}
@@ -74,13 +74,16 @@ Creating map with the stations on it
 
 ```{r}
 stations = read_sf(dsn = "WQstations", layer = "WaterQuality_MonitoringSites") %>% 
-  mutate(ID=SiteInfo_1)
+  mutate(ID=SiteInfo_1) %>% 
+  st_transform(crs = 4326)
 ```
 
 ```{r}
 plot(stations)
 
 stations_org= full_join(stations,site_cont_sum, by="ID")
-#st_write(stations_org, "stations_org.shp", driver="ESRI Shapefile") 
+
+#write.csv(stations_org, file="stations_org.csv")
+#st_write(stations_org, "stations_org2.shp", driver="ESRI Shapefile") 
 ```
 
