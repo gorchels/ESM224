@@ -14,6 +14,14 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(janitor)
 library(stringr)
+library(tidyverse)
+library(sf)
+library(tmap)
+library(leaflet)
+library(ggrepel)
+library(ggspatial)
+library(RColorBrewer)
+library(raster)
 ```
 
 ```{r}
@@ -60,5 +68,19 @@ write.csv(site_cont_sum, file="SiteFull.csv")
 ```{r}
 #write.csv(filtered_monitoring, file="Filtered_MonitoringData.csv")
 #write.csv(site_filter, file="SiteInfoFiltered.csv")
+```
+
+Creating map with the stations on it 
+
+```{r}
+stations = read_sf(dsn = "WQstations", layer = "WaterQuality_MonitoringSites") %>% 
+  mutate(ID=SiteInfo_1)
+```
+
+```{r}
+plot(stations)
+
+stations_org= full_join(stations,site_cont_sum, by="ID")
+#st_write(stations_org, "stations_org.shp", driver="ESRI Shapefile") 
 ```
 
